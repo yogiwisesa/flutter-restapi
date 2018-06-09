@@ -86,7 +86,7 @@ class ReposList extends StatelessWidget {
       itemBuilder: (context, index) {
         return new ListTile(
           title: new Text(
-            "${repos[index].name} (${repos[index].language}",
+            "${repos[index].name} (${repos[index].language})",
             style: new TextStyle(fontWeight: FontWeight.bold),
           ),
           subtitle: new Text(repos[index].description),
